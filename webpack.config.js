@@ -55,7 +55,8 @@ const common = {
   },
   plugins: [
     new webpack.ProvidePlugin({
-      gvar: [resolve(__dirname, "src", "globalVar.ts"), "gvar"]
+      gvar: [resolve(__dirname, "src", "globalVar.ts"), "gvar"],
+      closeButton: [resolve(__dirname, "src", "closeButton.tsx"), "closeButton"]
     })
   ]
 }

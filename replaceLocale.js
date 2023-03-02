@@ -41,6 +41,7 @@ for (let locale of locales) {
   }
 }
 
+// Add close button to the URL rule dialog
 console.log("ALL GOOD!")
 
 function getLeafs(obj, ctx = []) {
